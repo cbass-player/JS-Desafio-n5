@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500&family=Roboto:wght@300;500&display=swap');
+
+html {
+    background-color: rgb(247, 225, 153);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    margin: 0;
+    padding: 25px;
+}
+
+h5 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-main {
+    display:flex;
+    flex-direction: column;
+    width:700px;
+    border: 1px solid #191919;
+    box-shadow: 5px 5px 10px #a9a8a8;
+    background-color: rgb(194, 137, 222);
+}
+
+.add-task {
+    display: flex;
+    justify-content: center;
+}
+
+#input {
+    width: 400px;
+}
+
+.status {
+    display: flex;
+    justify-content:space-between;
+    padding: 25px 10px 10px 10px;
+}
+
+.summary p{
+    margin: 0;
+}
+
+.detail p {
+    margin:0;
+}
